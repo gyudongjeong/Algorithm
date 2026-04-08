@@ -6,7 +6,7 @@ public class Main {
         scan.close();
 		
         for (int col = 1; col <= N; col++) {
-            for (int spa = 1; spa <= N-col; spa++) {
+            for (int spa = N-col; spa >= 1; spa--) {
             	System.out.print(" ");
             }
             
