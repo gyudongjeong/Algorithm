@@ -3,6 +3,8 @@ package ch02_layout;
 import javax.swing.*;
 import java.awt.*;
 
+//주제: Flow Layout 형식의 프레임 생성
+
 public class FlowLayoutEx extends JFrame {
 
 	public FlowLayoutEx() {
